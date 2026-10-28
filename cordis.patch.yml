@@ -1,0 +1,5 @@
+# Paths resolve on the installing user's computer. No developer paths or credentials.
+- insert:
+    - id: firefly-companion
+      name: firefly-dsh-plugin
+      config: {}

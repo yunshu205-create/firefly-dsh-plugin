@@ -1,0 +1,19 @@
+{
+  "name": "firefly-dsh-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "流萤：连接已有 DSH 的 Windows Live2D 桌宠",
+  "license": "MIT",
+  "os": ["win32"],
+  "cpu": ["x64"],
+  "engines": {"node": ">=22.18.0"},
+  "exports": {".": "./src/index.mjs"},
+  "files": ["src/index.mjs", "src/agent-bridge.mjs", "src/in-process-client.mjs", "src/gift-core.mjs", "src/gift-api.mjs", "src/voice-service.mjs", "ui", "resources", "cordis.patch.yml", "README.md", "docs", "LICENSE.md", "CHANGELOG.md"],
+  "dsh": {"bundle": {"patch": "./cordis.patch.yml"}},
+  "peerDependenciesMeta": {"@deepseek-ai/cordis":{"optional":true},"@deepseek-ai/dsh-llm":{"optional":true}},
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.4",
+    "@deepseek-ai/dsh-llm": "0.2.0-rc.2"
+  }
+}
