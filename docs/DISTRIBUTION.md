@@ -10,7 +10,7 @@
 | PixiJS 6.5.10 | 原JS内版权/MIT声明 | 保留原头部；补充上游LICENSE |
 | pixi-live2d-display | guansss/pixi-live2d-display，原JS内MIT声明 | 保留原头部；补充上游LICENSE，实际本地构建版本待作者资料进一步确认 |
 | Cubism Core Web | Live2D专有组件 | 不上传Git源码历史。公开资源包前须核对并满足Live2D Proprietary/SDK Release条件；不能按MIT处理 |
-| 流萤立绘、背景、头像、Live2D模型/贴图/动作/表情 | 继承现有客户端素材；2026-10-28用户表示“可以上传”，但未提供具体作者/来源与许可原文 | 仅本地Windows待发布资源包；用户授权意愿已记录，仍不等于第三方作者许可已取得。公开完整资源包仍有此门槛 |
+| 流萤立绘、背景、头像、Live2D模型/贴图/动作/表情 | 发布者提供QwenFireflyNeko作为模型公开来源，并于2026-10-29明确确认非商用公开随包范围覆盖三张静态图 | 保留是依七哒等出处和角色权益说明，按学习、娱乐、非商用及各自条款提供；不是MIT素材 |
 | 参考音频、角色声音权重 | 之前用户确认自制/允许赠送 | 本轮不附带；按用户已有环境连接 |
 
 已核对官方来源：
@@ -21,10 +21,10 @@
 - PixiJS：[上游仓库](https://github.com/pixijs/pixijs)
 - pixi-live2d-display：[上游仓库](https://github.com/guansss/pixi-live2d-display)
 
-## GitHub上传计划（尚未执行）
+## v0.1.0发行记录
 
-准备独立firefly-dsh-plugin仓库；只提交审查后的源代码、脚本、说明和bundle配置。Windows组件和匹配tgz可作为Releases资产，资源许可收口后才上传。无自动下载/执行脚本，无postinstall/prepare钩子，不要求用户批准不透明的构建脚本。当前没有创建远端仓库、push或上传资产。
+独立firefly-dsh-plugin仓库只提交审查后的源代码、脚本、说明和bundle配置。Windows组件和匹配tgz作为Releases资产，不进入Git历史。无自动下载/执行脚本，无postinstall/prepare钩子，不要求用户批准不透明的构建脚本。
 
-2026-10-28发布准备更新：已在用户确认的账号 `yunshu205-create` 下创建同名公开源码仓库。未覆盖任何旧仓库。具体第三方出处与仍待确认的文件见 [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)；角色资源不随源码Git提交。Windows ZIP仍待该项确认，发布文件不重新构建。
+已在发布者确认的账号 `yunshu205-create` 下创建同名公开源码仓库，未覆盖旧仓库。2026-10-29完成静态图确认；具体出处与范围见 [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md)。两个程序附件保持原始文件与SHA256，不重新构建。
 
-资源包已提供完整本地待发布文件，不能把公开分发门槛未解决写成“已可公开交付”。用户若自行提供合法模型，可按同样目录结构和组件清单配置，不需要复制开发机路径。
+第三方素材及Cubism Core不适用原创代码MIT，不能据此推断商业再分发权。请同时保留发布说明、THIRD_PARTY_NOTICES.md以及组件内已有的运行库许可证。冻结包内准备阶段的旧核对状态不作最新授权说明。

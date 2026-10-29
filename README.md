@@ -2,7 +2,7 @@
 
 让已有DSH的Windows用户使用流萤人格、透明Live2D桌宠、聊天气泡和可选角色声音。复用宿主Agent、模型配置和工具事件，不捆绑另一套DSH，不启动独立DeepSeek Agent。
 
-**版本：0.1.0。已在DSH 0.2.0-rc.2中完成插件安装、透明桌宠、基本聊天、停用与移除验收。角色资源包公开发布仍以其单独授权确认结果为准。**
+**版本：0.1.0。已在DSH 0.2.0-rc.2中完成插件安装、透明桌宠、基本聊天、停用与移除验收。原创代码MIT；随附第三方角色资源按非商用学习、娱乐范围及各自条款使用。**
 
 ## 安装
 
@@ -11,7 +11,7 @@
 3. 把仓库地址或发布的 `.tgz` 交给自己的DSH，先检查包和权限，再确认安装到所选Profile。不要给未知插件管理员权限。
 4. DSH启用插件后，运行组件中的 `Open-Firefly.cmd` 打开桌宠。没有启动DSH时会明确提示，不会偷偷启动第二个后台。
 
-插件包与Windows组件的正式下载入口：[v0.1.0 Release](https://github.com/yunshu205-create/firefly-dsh-plugin/releases/tag/v0.1.0)。资源未获准公开之前，Release可能尚未发布；请以页面实际附件为准。
+插件包与Windows组件的正式下载入口：[v0.1.0 Release](https://github.com/yunshu205-create/firefly-dsh-plugin/releases/tag/v0.1.0)。下载时请一并保留 [第三方出处与授权范围](THIRD_PARTY_NOTICES.md)。
 
 完成Windows组件配置后，可把下面这段交给DSH：
 
